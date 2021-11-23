@@ -32,3 +32,11 @@ ffmpeg -i input.mp4 -i overlay.png -filter_complex "[0:v][1:v] overlay=0:0" -c:a
 
 # add audio to video
 ffmpeg -i video.mp4 -i audio.mp3 -c:v copy -c:a aac -strict experimental -shortest output.mp4
+
+# concatenate videos
+cat vidlist.txt
+file '/path/to/file1'
+file '/path/to/file2'
+file '/path/to/file3'
+
+ffmpeg -f concat -safe 0 -i vidlist.txt -c copy output.mp4
