@@ -1,6 +1,8 @@
 <h1 align="center">CRT Simulator:<br>Apply a fully automated "old CRT monitor" effect to any video.</h1>
+
 [![still-example](repo_images/aesthetic_crt.png "Video")](https://www.youtube.com/watch?v=kym5vjTPEow)
 <a target="_blank" href="https://www.youtube.com/watch?v=kym5vjTPEow"><p align="center">Click for Video</p></a>
+
 ## Using
 - Pick a video. 
 - Pick some audio.
