@@ -16,10 +16,10 @@ And that's it! The edited video will appear in an "outputs" folder at the root o
 
 ### Some pointers:
 - The aspect ratio of the included CRT overlay is 4:3. Any video differing from this ratio will be
-  padded with an appropriate off-black to fit.
-- If you want a different overlay (different monitor or background image) you can just swap out the
-  image, but beware, as things are now you'll need to mess with the code a bit if the screen
-  dimensions and position do not match the original.
+  padded to fit with an appropriate off-black.
+- If you want a different overlay (monitor or background image) you can just swap out the
+  image, but beware, as things are now you'll need to mess with the code a bit if the
+  desired dimensions and position of your screen do not match the original.
 - Future work should include an option to specify the dimensions and center of the video relative to
   the overlay for easy use with custom images. I'll get around to that eventually if no one else
   does.
