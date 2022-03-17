@@ -14,7 +14,7 @@ bash automate.bash
 ```
 And that's it! The edited video will appear in an "outputs" folder at the root of the repo.
 
-# Some pointers:
+### Some pointers:
 - The aspect ratio of the included CRT overlay is 4:3. Any video differing from this ratio will be
   padded with an appropriate off-black to fit.
 - If you want a different overlay (different monitor or background image) you can just swap out the
