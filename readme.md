@@ -12,7 +12,7 @@
 cd /path/to/this/repository
 bash automate.bash
 ```
-And that's it! The edited video will appear in your an "outputs" folder at the root of the repo.
+And that's it! The edited video will appear in an "outputs" folder at the root of the repo.
 
 # Some pointers:
 - The aspect ratio of the included CRT overlay is 4:3. Any video differing from this ratio will be
